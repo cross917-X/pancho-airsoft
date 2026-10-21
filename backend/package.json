@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -16,4 +17,5 @@
     "express": "^5.3.0",
     "mysql2": "^3.24.6"
   }
+  
 }
